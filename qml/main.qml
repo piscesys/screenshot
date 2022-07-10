@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 Piscesys Team.
  *
  * Author:     Reion Wong <reionwong@gmail.com>
  *
@@ -77,10 +77,10 @@ Item {
 
     function refreshImage() {
         image.source = ""
-        image.source = "file:///tmp/cutefish-screenshot.png"
+        image.source = "file:///tmp/pisces-screenshot.png"
 
         selectImage.source = ""
-        selectImage.source = "file:///tmp/cutefish-screenshot.png"
+        selectImage.source = "file:///tmp/pisces-screenshot.png"
     }
 
     function save() {
